@@ -1123,11 +1123,11 @@ ${
       </section>
 
 
-      {/* ========================================================= */}
-      {/* FOOTER */}
-      {/* ========================================================= */}
+     {/* ========================================================= */}
+{/* FOOTER */}
+{/* ========================================================= */}
 
-     <footer
+<footer
   className="
     relative z-10
     border-t border-orange-300/10
@@ -1135,69 +1135,175 @@ ${
   "
 >
 
-  <div
-    className="
-      mx-auto
-      flex
-      max-w-6xl
-      flex-col
-      items-center
-      justify-between
-      gap-5
-      px-5
-      py-8
-      text-center
-      sm:flex-row
-      sm:px-8
-      sm:text-left
-    "
-  >
+  <div className="mx-auto w-full max-w-6xl px-5 py-14 sm:px-8">
 
-    {/* Logo + Brand */}
-    <div className="flex items-center gap-3">
+    {/* RELATED TOOLS */}
 
-      {/* Logo */}
-      <div
-        className="
-          flex h-11 w-11
-          shrink-0
-          items-center
-          justify-center
-          overflow-hidden
-          rounded-full
-          border border-orange-300/20
-          bg-white
-          shadow-lg
-          shadow-orange-950/20
-        "
-      >
-        <img
-          src="/logo.png"
-          alt="KrishAIWorks"
-          className="h-full w-full rounded-full object-cover"
-        />
+    <div className="mb-12">
+
+      <div className="mx-auto max-w-2xl text-center">
+
+        <p className="text-xs font-semibold uppercase tracking-[0.25em] text-orange-300">
+          Explore More
+        </p>
+
+        <h2 className="mt-3 text-2xl font-bold text-white sm:text-3xl">
+          More AI Career Tools
+        </h2>
+
+        <p className="mt-3 text-sm leading-7 text-orange-100/40">
+          Explore more AI-powered tools to improve your resume,
+          job applications and professional career.
+        </p>
+
       </div>
 
-      {/* Brand Text */}
-      <div>
+      <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
 
-        <p className="font-semibold text-white">
-          KrishAIWorks
-        </p>
+        {/* AI RESUME ANALYZER */}
 
-        <p className="mt-1 text-xs text-orange-100/40">
-          AI Solutions That Work
-        </p>
+        <a
+          href="https://airesumeanalyzer.krishaiworks.com/"
+          className="group rounded-2xl border border-white/5 bg-white/[0.025] p-5 transition hover:-translate-y-1 hover:border-orange-300/20 hover:bg-orange-300/[0.03]"
+        >
+
+          <div className="flex h-10 w-10 items-center justify-center rounded-xl border border-orange-300/10 bg-orange-300/10 text-lg">
+            🔍
+          </div>
+
+          <h3 className="mt-4 text-sm font-semibold text-white transition group-hover:text-orange-200">
+            AI Resume Analyzer
+          </h3>
+
+          <p className="mt-2 text-xs leading-6 text-orange-100/40">
+            Analyze your resume and discover ways to improve it.
+          </p>
+
+        </a>
+
+        {/* AI COVER LETTER GENERATOR */}
+
+        <a
+          href="https://aicoverlettergenerator.krishaiworks.com/"
+          className="group rounded-2xl border border-white/5 bg-white/[0.025] p-5 transition hover:-translate-y-1 hover:border-orange-300/20 hover:bg-orange-300/[0.03]"
+        >
+
+          <div className="flex h-10 w-10 items-center justify-center rounded-xl border border-orange-300/10 bg-orange-300/10 text-lg">
+            💼
+          </div>
+
+          <h3 className="mt-4 text-sm font-semibold text-white transition group-hover:text-orange-200">
+            AI Cover Letter Generator
+          </h3>
+
+          <p className="mt-2 text-xs leading-6 text-orange-100/40">
+            Create personalized cover letters for your job applications.
+          </p>
+
+        </a>
+
+        {/* AI EMAIL WRITER */}
+
+        <a
+          href="https://aiemailwriter.krishaiworks.com/"
+          className="group rounded-2xl border border-white/5 bg-white/[0.025] p-5 transition hover:-translate-y-1 hover:border-orange-300/20 hover:bg-orange-300/[0.03]"
+        >
+
+          <div className="flex h-10 w-10 items-center justify-center rounded-xl border border-orange-300/10 bg-orange-300/10 text-lg">
+            ✉️
+          </div>
+
+          <h3 className="mt-4 text-sm font-semibold text-white transition group-hover:text-orange-200">
+            AI Email Writer
+          </h3>
+
+          <p className="mt-2 text-xs leading-6 text-orange-100/40">
+            Write professional emails quickly with AI.
+          </p>
+
+        </a>
+
+        {/* AI GRAMMAR & WRITING FIXER */}
+
+        <a
+          href="https://aigrammarwritingfixer.krishaiworks.com/"
+          className="group rounded-2xl border border-white/5 bg-white/[0.025] p-5 transition hover:-translate-y-1 hover:border-orange-300/20 hover:bg-orange-300/[0.03]"
+        >
+
+          <div className="flex h-10 w-10 items-center justify-center rounded-xl border border-orange-300/10 bg-orange-300/10 text-lg">
+            ✍️
+          </div>
+
+          <h3 className="mt-4 text-sm font-semibold text-white transition group-hover:text-orange-200">
+            AI Grammar & Writing Fixer
+          </h3>
+
+          <p className="mt-2 text-xs leading-6 text-orange-100/40">
+            Fix grammar, spelling and improve your writing with AI.
+          </p>
+
+        </a>
 
       </div>
 
     </div>
 
+    {/* FOOTER MAIN */}
 
-    {/* Copyright */}
-    <p className="text-xs text-orange-100/35">
-      Built with AI • © {new Date().getFullYear()} KrishAIWorks
-    </p>
+    <div className="border-t border-white/5 pt-8">
+
+      <div className="flex flex-col items-center justify-between gap-5 text-center sm:flex-row sm:text-left">
+
+        {/* Logo + Brand */}
+
+        <div className="flex items-center gap-3">
+
+          <div
+            className="
+              flex h-11 w-11
+              shrink-0
+              items-center
+              justify-center
+              overflow-hidden
+              rounded-full
+              border border-orange-300/20
+              bg-white
+              shadow-lg
+              shadow-orange-950/20
+            "
+          >
+
+            <img
+              src="/logo.png"
+              alt="KrishAIWorks"
+              className="h-full w-full rounded-full object-cover"
+            />
+
+          </div>
+
+          <div>
+
+            <p className="font-semibold text-white">
+              KrishAIWorks
+            </p>
+
+            <p className="mt-1 text-xs text-orange-100/40">
+              AI Solutions That Work
+            </p>
+
+          </div>
+
+        </div>
+
+        {/* Copyright */}
+
+        <p className="text-xs text-orange-100/35">
+          Built with AI • © {new Date().getFullYear()} KrishAIWorks
+        </p>
+
+      </div>
+
+    </div>
 
   </div>
 

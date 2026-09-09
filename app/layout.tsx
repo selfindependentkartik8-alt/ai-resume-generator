@@ -118,8 +118,7 @@ const jsonLd = {
     },
     {
       "@type": "WebApplication",
-      "@id":
-        "https://airesumegenerator.krishaiworks.com/#webapplication",
+      "@id": "https://airesumegenerator.krishaiworks.com/#webapplication",
       name: "AI Resume Generator",
       url: "https://airesumegenerator.krishaiworks.com/",
       description:
@@ -131,7 +130,7 @@ const jsonLd = {
         "@id": "https://krishaiworks.com/#website",
       },
       publisher: {
-        "@id: "https://krishaiworks.com/#organization",
+        "@id": "https://krishaiworks.com/#organization",
       },
     },
     {
@@ -145,8 +144,7 @@ const jsonLd = {
         "@id": "https://krishaiworks.com/#website",
       },
       about: {
-        "@id":
-          "https://airesumegenerator.krishaiworks.com/#webapplication",
+        "@id": "https://airesumegenerator.krishaiworks.com/#webapplication",
       },
       inLanguage: "en",
     },
